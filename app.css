@@ -53,9 +53,12 @@ body {
 #joke {
     color: #EC6000;
     text-decoration: solid;
-    display: flex;
-    text-align: center;
     font-size: 80px;
     font-family: 'oswald', sans-serif;
+    text-wrap: wrap;
     /* -webkit-text-stroke: 0.2px black; */
+}
+.joke-container{
+    margin: 75px 100px 75px 100px;
+    background-color: #2d4f68;
 }
