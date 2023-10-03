@@ -1,0 +1,61 @@
+/* colors */
+/* Color Theme Swatches in Hex */
+.Cópia-de-narutocolors-1-hex {
+    color: #514F44;
+}
+
+.Cópia-de-narutocolors-2-hex {
+    color: #B13C25;
+}
+
+.Cópia-de-narutocolors-3-hex {
+    color: #EC6000;
+}
+
+.Cópia-de-narutocolors-4-hex {
+    color: #21455E;
+}
+
+.Cópia-de-narutocolors-5-hex {
+    color: #ECE73F;
+}
+
+body {
+
+    background-color: #21455E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
+
+
+.button {
+    background-color: #B13C25;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #a53e29;
+}
+
+#joke {
+    color: #EC6000;
+    text-decoration: solid;
+    display: flex;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'oswald', sans-serif;
+    /* -webkit-text-stroke: 0.2px black; */
+}
